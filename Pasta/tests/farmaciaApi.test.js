@@ -10,7 +10,7 @@ test("Deve retornar lista de medicamentos formatada", async () => {
                 { title: "Dipirona", brand: "NeoQuímica" }
             ]
         }
-    });
+    });   
 
     const result = await getMedicamentos();
 
@@ -18,3 +18,4 @@ test("Deve retornar lista de medicamentos formatada", async () => {
         { nome: "Dipirona", fabricante: "NeoQuímica" }
     ]);
 });
+/*test("Deve retornar lista vazia quando API retornar erro", async () => {  */
