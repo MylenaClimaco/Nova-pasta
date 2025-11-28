@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projeto Farmácia - Consulta de Medicamentos</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- axios CDN (para simplicidade, no projeto real você poderia bundlar) -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Projeto Farmácia</h1>
+    <p class="meta">Sistema de demonstração — consulta de medicamentos</p>
+
+    <div class="controls">
+      <button id="btnBuscar">Buscar Medicamentos</button>
+    </div>
+
+    <section id="resultado" class="resultado">
+      <ul id="listaMedicamentos"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
